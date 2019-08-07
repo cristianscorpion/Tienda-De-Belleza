@@ -13,6 +13,15 @@ public class Producto {
     @Column
     private String NombreProducto;
 
+    @Column
+    private Double PrecioProducto;
+
+    @Column
+    private Integer UnidadesDisponibles;
+
+    @Column
+    private String TipoProducto;
+
     @ManyToOne()
     private Bodega bodega;
 
@@ -40,11 +49,38 @@ public class Producto {
         this.bodega = bodega;
     }
 
+    public Double getPrecioProducto() {
+        return PrecioProducto;
+    }
+
+    public void setPrecioProducto(Double precioProducto) {
+        PrecioProducto = precioProducto;
+    }
+
+    public Integer getUnidadesDisponibles() {
+        return UnidadesDisponibles;
+    }
+
+    public void setUnidadesDisponibles(Integer unidadesDisponibles) {
+        UnidadesDisponibles = unidadesDisponibles;
+    }
+
+    public String getTipoProducto() {
+        return TipoProducto;
+    }
+
+    public void setTipoProducto(String tipoProducto) {
+        TipoProducto = tipoProducto;
+    }
+
     public Producto(){
 
     }
 
-    public Producto(String nombreProducto) {
+    public Producto(String nombreProducto, Double precioProducto, Integer unidadesDisponibles, String tipoProducto) {
         NombreProducto = nombreProducto;
+        PrecioProducto = precioProducto;
+        UnidadesDisponibles = unidadesDisponibles;
+        TipoProducto = tipoProducto;
     }
 }

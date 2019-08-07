@@ -31,7 +31,7 @@ public class BootDemoApplication {
 			Bodega bodega = new Bodega(nombreBodega, "medellin");
 			bodegaRepository.save(bodega);
 			String nombreProducto = "producto "+(i+1);
-			Producto producto= new Producto(nombreProducto);
+			Producto producto= new Producto(nombreProducto, 50000.00, 2, "fragil");
 			producto.setBodega(bodega);
 			productoRepository.save(producto);
 		}

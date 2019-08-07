@@ -7,7 +7,7 @@ import com.example.tiendaBelleza.entity.Producto;
 
 public class EntityConverter {
     public static Producto productoDtoToProducto(ProductoDto productoDto) {
-        Producto producto = new Producto(productoDto.getNombreProducto());
+        Producto producto = new Producto(productoDto.getNombreProducto(),productoDto.getPrecioProducto(),productoDto.getUnidadesDisponibles(),productoDto.getTipoProducto());
         producto.setCodigoProducto(productoDto.getCodigoProducto());
         Bodega bodega = new Bodega();
         bodega.setCodigoBodega(productoDto.getBodegaId());
@@ -16,8 +16,8 @@ public class EntityConverter {
     }
 
     public static ProductoDto productoToProductoDto(Producto producto) {
-        ProductoDto productoDto = new ProductoDto(producto.getCodigoProducto(),producto.getNombreProducto(),producto.getBodega().getCodigoBodega());
-        productoDto.setNombreBodega(producto.getBodega().getNombreBodega());
+        ProductoDto productoDto = new ProductoDto(producto.getCodigoProducto(),producto.getNombreProducto(),producto.getBodega().getCodigoBodega(),
+                producto.getBodega().getNombreBodega(), producto.getPrecioProducto(), producto.getUnidadesDisponibles(), producto.getTipoProducto());
         return productoDto;
     }
 

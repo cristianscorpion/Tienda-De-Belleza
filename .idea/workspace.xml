@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8305be0-4475-4c06-9df0-e27f9c46f64a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/app/app.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/lib/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/app/ProductoController.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/app/ProductoService.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/app/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/lib/angular.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/lib/ui-bootstrap-tpls-2.5.0.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/views/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tiendaBelleza/BootDemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tiendaBelleza/BootDemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tiendaBelleza/converter/EntityConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tiendaBelleza/converter/EntityConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tiendaBelleza/dto/ProductoDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tiendaBelleza/dto/ProductoDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tiendaBelleza/entity/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tiendaBelleza/entity/Producto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tiendaBelleza/BootDemoApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/tiendaBelleza/BootDemoApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tiendaBelleza/converter/EntityConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/tiendaBelleza/converter/EntityConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tiendaBelleza/dto/ProductoDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/tiendaBelleza/dto/ProductoDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tiendaBelleza/entity/Producto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/tiendaBelleza/entity/Producto.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1565182907483</updated>
       <workItem from="1565182912359" duration="265000" />
-      <workItem from="1565183484955" duration="19467000" />
+      <workItem from="1565183484955" duration="21879000" />
     </task>
     <servers />
   </component>

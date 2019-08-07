@@ -9,6 +9,9 @@ public class ProductoDto implements Serializable {
     private String nombreProducto;
     private Integer bodegaId;
     private String nombreBodega;
+    private Double precioProducto;
+    private Integer unidadesDisponibles;
+    private String tipoProducto;
 
     public Integer getCodigoProducto() {
         return codigoProducto;
@@ -34,6 +37,30 @@ public class ProductoDto implements Serializable {
         this.bodegaId = bodegaId;
     }
 
+    public Double getPrecioProducto() {
+        return precioProducto;
+    }
+
+    public void setPrecioProducto(Double precioProducto) {
+        this.precioProducto = precioProducto;
+    }
+
+    public Integer getUnidadesDisponibles() {
+        return unidadesDisponibles;
+    }
+
+    public void setUnidadesDisponibles(Integer unidadesDisponibles) {
+        this.unidadesDisponibles = unidadesDisponibles;
+    }
+
+    public String getTipoProducto() {
+        return tipoProducto;
+    }
+
+    public void setTipoProducto(String tipoProducto) {
+        this.tipoProducto = tipoProducto;
+    }
+
     public ProductoDto(){
 
     }
@@ -46,9 +73,13 @@ public class ProductoDto implements Serializable {
         this.nombreBodega = nombreBodega;
     }
 
-    public ProductoDto(Integer codigoProducto, String nombreProducto, Integer bodegaId) {
+    public ProductoDto(Integer codigoProducto, String nombreProducto, Integer bodegaId, String nombreBodega, Double precioProducto, Integer unidadesDisponibles, String tipoProducto) {
         this.codigoProducto = codigoProducto;
         this.nombreProducto = nombreProducto;
         this.bodegaId = bodegaId;
+        this.nombreBodega = nombreBodega;
+        this.precioProducto = precioProducto;
+        this.unidadesDisponibles = unidadesDisponibles;
+        this.tipoProducto = tipoProducto;
     }
 }
