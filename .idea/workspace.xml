@@ -2,60 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8305be0-4475-4c06-9df0-e27f9c46f64a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/tiendaBelleza/controller/ProductoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/tiendaBelleza/converter/EntityConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/tiendaBelleza/dto/BodegaDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/tiendaBelleza/dto/ProductoDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/tiendaBelleza/entity/Bodega.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/tiendaBelleza/entity/Producto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/tiendaBelleza/repository/BodegaRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/tiendaBelleza/repository/ProductoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/tiendaBelleza/service/BodegaService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/tiendaBelleza/service/ProductoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/tiendaBelleza/service/impl/BodegaServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/tiendaBelleza/service/impl/ProductoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/app/ProductoController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tiendaBelleza/BootDemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tiendaBelleza/BootDemoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tiendaBelleza/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tiendaBelleza/controller/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tiendaBelleza/controller/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tiendaBelleza/converter/SkillConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tiendaBelleza/converter/UserConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tiendaBelleza/dto/SkillDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tiendaBelleza/dto/UserDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tiendaBelleza/entity/Skill.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tiendaBelleza/entity/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tiendaBelleza/repository/SkillRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tiendaBelleza/repository/UserRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tiendaBelleza/service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tiendaBelleza/service/impl/UserServiceimpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tiendaBelleza/utils/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tiendaBelleza/utils/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/app/UserController.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/app/UserService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/app/ProductoService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/app/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/views/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/tiendaBelleza/BootDemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/tiendaBelleza/BootDemoApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/BootDemoApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/controller/HomeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/converter/SkillConverter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/converter/UserConverter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/dto/SkillDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/dto/UserDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/entity/Skill.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/entity/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/repository/SkillRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/repository/UserRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/service/impl/UserServiceimpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/utils/Constants.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/js/app/UserController.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/js/app/UserService.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/js/app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/app/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/views/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/demo/BootDemoApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/app/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/lib/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/app/ProductoController.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/app/ProductoService.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/app/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/lib/angular.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/lib/ui-bootstrap-tpls-2.5.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/views/index.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -123,7 +77,7 @@
       <option name="presentableId" value="Default" />
       <updated>1565182907483</updated>
       <workItem from="1565182912359" duration="265000" />
-      <workItem from="1565183484955" duration="19122000" />
+      <workItem from="1565183484955" duration="19467000" />
     </task>
     <servers />
   </component>
