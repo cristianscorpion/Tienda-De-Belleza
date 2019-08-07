@@ -1,7 +1,8 @@
-package com.example.demo.utils;
+package com.example.tiendaBelleza.utils;
 
 public interface Constants {
-	static final String GET_USER_BY_ID = "/getUser/{userId}";
-	static final String GET_ALL_USERS = "/getAllUsers";
-	static final String SAVE_USER = "/saveUser";
+	static final String GET_PRODUCT_BY_CODE = "/getProducts/{codigoProducto}";
+	static final String GET_ALL_PRODUCTS = "/getAllProducts";
+	static final String SAVE_PRODUCT = "/saveProduct";
+	static final String GET_ALL_BODEGAS = "/getAllBodegas";
 }
